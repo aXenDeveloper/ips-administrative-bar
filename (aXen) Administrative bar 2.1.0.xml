@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin name="(aXen) Administrative bar" version_long="20000" version_human="2.0.0" author="aXenDev" website="https://axendev.net/" update_check="http://axendev.net/myapps/plugins/administrativebar/check.php"><hooks><hook type="S" class="\IPS\Theme\class_core_front_global" filename="administrativebar"><![CDATA[//<?php
+<plugin name="(aXen) Administrative bar" version_long="20001" version_human="2.1.0" author="aXenDev" website="https://axendev.net/" update_check="http://axendev.net/myapps/plugins/administrativebar/check.php"><hooks><hook type="S" class="\IPS\Theme\class_core_front_global" filename="administrativebar"><![CDATA[//<?php
 
 /* To prevent PHP errors (extending class does not exist) revealing path */
 if ( !\defined( '\IPS\SUITE_UNIQUE_KEY' ) )
@@ -7,7 +7,7 @@ if ( !\defined( '\IPS\SUITE_UNIQUE_KEY' ) )
 	exit;
 }
 
-class hook529 extends _HOOK_CLASS_
+class hook184 extends _HOOK_CLASS_
 {
 
 /* !Hook Data - DO NOT REMOVE */
@@ -58,7 +58,7 @@ if ( $values = $form->values() )
 	return TRUE;
 }
 
-return $form;]]></settingsCode><htmlFiles/><cssFiles/><jsFiles/><resourcesFiles/><lang><word key="aXenAdminBar_icon" js="0">Enable icons?</word><word key="aXenAdminBar_mobile" js="0">Hide in mobile?</word></lang><versions><version long="10000" human="1.0.0"><![CDATA[//<?php
+return $form;]]></settingsCode><htmlFiles/><cssFiles/><jsFiles/><resourcesFiles/><lang><word key="aXenAdminBar_icon" js="0">Enable icons?</word><word key="aXenAdminBar_mobile" js="0">Hide in mobile?</word></lang><versions><version long="10000" human="1.0.0"/><version long="20000" human="2.0.0"><![CDATA[//<?php
 
 
 /* To prevent PHP errors (extending class does not exist) revealing path */
@@ -69,9 +69,9 @@ if ( !\defined( '\IPS\SUITE_UNIQUE_KEY' ) )
 }
 
 /**
- * Install Code
+ * 2.0.0 Upgrade Code
  */
-class ips_plugins_setup_install
+class ips_plugins_setup_upg_20000
 {
 	/**
 	 * ...
@@ -87,7 +87,7 @@ class ips_plugins_setup_install
 	
 	// You can create as many additional methods (step2, step3, etc.) as is necessary.
 	// Each step will be executed in a new HTTP request
-}]]></version><version long="20000" human="2.0.0"><![CDATA[//<?php
+}]]></version><version long="20001" human="2.1.0"><![CDATA[//<?php
 
 
 /* To prevent PHP errors (extending class does not exist) revealing path */
@@ -98,9 +98,9 @@ if ( !\defined( '\IPS\SUITE_UNIQUE_KEY' ) )
 }
 
 /**
- * 2.0.0 Upgrade Code
+ * 2.1.0 Upgrade Code
  */
-class ips_plugins_setup_upg_20000
+class ips_plugins_setup_upg_20001
 {
 	/**
 	 * ...
