@@ -1,8 +1,10 @@
 # (aXen) Administrative bar
+
 The plugin adds the administration bar known from previous versions of IP.Board.
 
 ## 🏷️ Requirements
-- [IPS Community Suite: 4.5, 4.6 version](https://invisioncommunity.com/)
+
+- [IPS Community Suite: 4.5, 4.6, 4.7 version](https://invisioncommunity.com/)
 
 ## 🧰 Install
 
@@ -21,11 +23,13 @@ The plugin adds the administration bar known from previous versions of IP.Board.
 3. Select file .xml from packet and click install button.
 
 ## 📷 Screenshots
+
 ![1](https://github.com/aXenDeveloper/ips-administrative-bar/blob/master/1.png?raw=true)
 ![2](https://github.com/aXenDeveloper/ips-administrative-bar/blob/master/2.png?raw=true)
 
 ## 🔌 Download from other sources:
+
 - [invisioncommunity.com](https://invisioncommunity.com/files/file/9497-axen-administrative-bar/),
 - [invisionize.pl](https://forum.invisionize.pl/files/file/793-axen-administrative-bar/)
 
-*The resources from the links above are updated on an ongoing basis if the administration approves the file.*
+_The resources from the links above are updated on an ongoing basis if the administration approves the file._
